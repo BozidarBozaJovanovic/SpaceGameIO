@@ -29,8 +29,52 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="server.js" />
+    <Compile Include="src\client\assets.js" />
+    <Compile Include="src\client\index.js" />
+    <Compile Include="src\client\input.js" />
+    <Compile Include="src\client\leaderboard.js" />
+    <Compile Include="src\client\networking.js" />
+    <Compile Include="src\client\render.js" />
+    <Compile Include="src\client\state.js" />
+    <Compile Include="src\server\bullet.js" />
+    <Compile Include="src\server\bullet.test.js" />
+    <Compile Include="src\server\collisions.js" />
+    <Compile Include="src\server\collisions.test.js" />
+    <Compile Include="src\server\game.js" />
+    <Compile Include="src\server\game.test.js" />
+    <Compile Include="src\server\object.js" />
+    <Compile Include="src\server\player.js" />
+    <Compile Include="src\server\player.test.js" />
+    <Compile Include="src\server\server.js" />
+    <Compile Include="src\shared\constants.js" />
+    <Compile Include="webpack.common.js" />
+    <Compile Include="webpack.dev.js" />
+    <Compile Include="webpack.prod.js" />
+    <Content Include=".eslintrc.json" />
+    <Content Include=".gitignore" />
+    <Content Include=".travis.yml" />
+    <Content Include="LICENSE" />
+    <Content Include="package-lock.json" />
     <Content Include="package.json" />
+    <Content Include="public\assets\bullet.svg" />
+    <Content Include="public\assets\icon.svg" />
+    <Content Include="public\assets\icon1200.png" />
+    <Content Include="public\assets\icon64.png" />
+    <Content Include="public\assets\ship.svg" />
     <Content Include="README.md" />
+    <Content Include="src\client\css\bootstrap-reboot.css" />
+    <Content Include="src\client\css\main.css" />
+    <Content Include="src\client\html\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public\" />
+    <Folder Include="public\assets\" />
+    <Folder Include="src\" />
+    <Folder Include="src\client\" />
+    <Folder Include="src\client\css\" />
+    <Folder Include="src\client\html\" />
+    <Folder Include="src\server\" />
+    <Folder Include="src\shared\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
