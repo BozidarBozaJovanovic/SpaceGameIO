@@ -11,6 +11,7 @@
     <EnableTypeScript>true</EnableTypeScript>
     <TypeScriptSourceMap>true</TypeScriptSourceMap>
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <NameOfLastUsedPublishProfile>SpaceGamePublishProfile</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -69,6 +70,7 @@
     <Content Include="public\assets\icon64.png" />
     <Content Include="public\assets\ship.svg" />
     <Content Include="README.md" />
+    <None Include="SpaceGamePublishProfile.pubxml" />
     <Content Include="src\client\css\bootstrap-reboot.css" />
     <Content Include="src\client\css\main.css" />
     <Content Include="src\client\html\index.html" />
